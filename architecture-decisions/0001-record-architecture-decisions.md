@@ -8,7 +8,7 @@ Accepted
 
 ## Context
 
-We need to record the architectural decisions made on this project.
+As we take steps to modernize CI and dependency updating, @gr2m and @travi have taken steps to discuss trade-offs of various options. During these discussions, the value of capturing the decisions from these discussions came up. Interest from both of us in ADRs was mentioned.
 
 ## Decision
 

@@ -20,9 +20,9 @@ the two builds are different.
 
 ## Decision
 
-We will not build the renovate branches as part of the test wrokflows
+We will not build the renovate branches as part of the test workflows.
 
 ## Consequences
 
 Redundant builds will be avoided and we will rely on the PR builds to verify
-that the dependency updates are safe to merge
+that the dependency updates are safe to merge.

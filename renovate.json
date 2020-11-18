@@ -9,7 +9,8 @@
     {
       "depTypeList": ["devDependencies"],
       "automerge": true,
-      "automergeType": "branch"
+      "automergeType": "branch",
+      "matchCurrentVersion": "!/^0/"
     }
   ]
 }

@@ -4,5 +4,12 @@
     "enabled": true,
     "automerge": true
   },
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "depTypeList": ["devDependencies"],
+      "automerge": true,
+      "automergeType": "branch"
+    }
+  ]
 }

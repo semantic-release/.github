@@ -1,0 +1,33 @@
+repository:
+  delete_branch_on_merge: true
+  has_wiki: false
+  has_projects: false
+  allow_squash_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: false
+
+branches:
+  - name: master
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: false
+        require_code_owner_reviews: true
+        dismissal_restrictions: null
+      required_status_checks:
+        strict: false
+        contexts: ['test', 'WIP']
+  - name: main
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: false
+        require_code_owner_reviews: true
+        dismissal_restrictions: null
+      required_status_checks:
+        strict: false
+        contexts: ['test', 'WIP']
+
+teams:
+  - name: maintainers
+    permission: maintain

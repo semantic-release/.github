@@ -4,7 +4,7 @@
     "enabled": true,
     "automerge": true
   },
-  "dependencyDashboard": true,
+  "dependencyDashboard": false,
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],

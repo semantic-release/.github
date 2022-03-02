@@ -7,7 +7,7 @@
   "dependencyDashboard": false,
   "packageRules": [
     {
-      "depTypeList": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "action"],
       "automerge": true
     }
   ]

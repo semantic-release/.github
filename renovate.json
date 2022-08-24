@@ -4,7 +4,7 @@
     "enabled": true,
     "automerge": true
   },
-  "dependencyDashboard": false,
+  "dependencyDashboard": true,
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies", "action"],

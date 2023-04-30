@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", ":pinOnlyDevDependencies"],
+  "extends": ["config:base", ":pinOnlyDevDependencies", "helpers:pinGitHubActionDigests"],
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true

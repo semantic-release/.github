@@ -11,6 +11,11 @@
       "automerge": true
     },
     {
+      "depTypeList": ["action"],
+      "semanticCommitType": "ci",
+      "semanticCommitScope": "action"
+    },
+    {
       "description": "Dropped CJS support: https://github.com/xojs/xo/releases/tag/v0.40.0",
       "matchPackageNames": ["xo"],
       "allowedVersions": "<0.40.0"

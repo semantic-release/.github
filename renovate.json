@@ -14,21 +14,6 @@
       "description": "Dropped CJS support: https://github.com/xojs/xo/releases/tag/v0.40.0",
       "matchPackageNames": ["xo"],
       "allowedVersions": "<0.40.0"
-    },
-    {
-      "description": "Dropped CJS support: https://github.com/sindresorhus/tempy/releases/v2.0.0",
-      "matchPackageNames": ["tempy"],
-      "allowedVersions": "<2.0.0"
-    },
-    {
-      "description": "Dropped CJS support: https://github.com/sindresorhus/globby/releases/v12.0.0",
-      "matchPackageNames": ["globby"],
-      "allowedVersions": "<12.0.0"
-    },
-    {
-      "description": "Dropped CJS support: https://github.com/jfromaniello/url-join/blob/HEAD/CHANGELOG.md#%E2%80%8B500---2022-03-23",
-      "matchPackageNames": ["url-join"],
-      "allowedVersions": "<5.0.0"
     }
   ]
 }

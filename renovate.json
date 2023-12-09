@@ -1,6 +1,7 @@
 {
   "extends": [
-    "config:best-practices"
+    "config:best-practices",
+    ":pinOnlyDevDependencies"
   ],
   "lockFileMaintenance": {
     "enabled": true,

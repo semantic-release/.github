@@ -12,7 +12,8 @@
     {
       "matchDepTypes": [
         "devDependencies",
-        "action"
+        "action",
+        "packageManager"
       ],
       "automerge": true
     },
